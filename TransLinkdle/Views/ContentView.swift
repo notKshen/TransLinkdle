@@ -20,8 +20,6 @@ struct ContentView: View {
             }
         }
         .tint(selectedTab == "daily" ? .dailyBlue : .transitGreen)
-        .animation(.easeInOut(duration: 0.4), value: selectedTab)
-        
     }
 }
 
